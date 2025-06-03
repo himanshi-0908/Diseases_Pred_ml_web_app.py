@@ -14,9 +14,9 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/Lenovo/Desktop/multiple diseases prediction/saved model - Copy/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/Lenovo/Desktop/multiple diseases prediction/saved model - Copy/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 
 
